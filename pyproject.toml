@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "instagram-download-saved"
+version = "0.1.0"
+description = "Downloads photos you saved from a specific profile."
+authors = ["Aviv Yaish <aviv.yaish@mail.huji.ac.il>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+instaloader = "^4.8.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
